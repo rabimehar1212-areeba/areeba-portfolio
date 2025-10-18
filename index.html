@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Areeba</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile-img">
+        <img src="C:\Users\lenovo\Documents\muslim-hijab-girl-Hidden-Face-Dp.jpg" alt="Profile Picture">
+      </div>
+      <h2>Areeba</h2>
+      <p class="role">Web Developer</p>
+
+      <!-- ✅ FIXED: removed nested contact-info div -->
+      <div class="contact-info">
+
+        <div class="info-box">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:areebamehar65@gmail.com" target="_blank">
+            areebamehar65@gmail.com
+          </a>
+        </div>
+
+        <div class="info-box">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+923256270239" target="_blank">
+            +923256270239
+          </a>
+        </div>
+
+        <div class="info-box">
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/areeba-se33340" target="_blank">
+            www.linkedin.com/in/areeba-se33340
+          </a>
+        </div>
+
+        <div class="info-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Gujranwala, Pakistan</span>
+        </div>
+      </div>
+      <!-- ✅ Properly closed contact-info div here -->
+
+      <!-- Social Media Links -->
+      <div class="social-icons" style="margin-top:15px; display:flex; gap:15px; font-size:20px;">
+        <a href="https://www.facebook.com/profile.php?id=61556002418443" target="_blank" style="color:#fff;">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="content">
+      <nav class="navbar">
+        <a href="#" class="active" onclick="showSection('about', event)">About</a>
+        <a href="#" onclick="showSection('resume', event)">Resume</a>
+        <a href="#" onclick="showSection('contact', event)">Contact</a>
+      </nav>
+
+      <!-- About -->
+      <section id="about" class="active about">
+        <h1>About Me</h1>
+        <p>I am passionate and results-driven developer with hands-on experience in Web Development (MERN Stack & WordPress), Mobile App Development (Flutter, Flutter Flow, React Native), and Digital Marketing. Skilled in building responsive, user-friendly websites and mobile applications — from small-scale projects to full-scale professional solutions.</p>
+        <ul class="skills">
+          <li>✅ Web development</li>
+          <li>✅ Mobile App Development</li>
+          <li>✅ Digital Marketing</li>
+        </ul>
+
+        <li>✅ Web Development: MERN Stack (MongoDB, Express.js, React.js, Node.js), WordPress (Custom Themes & Plugins).</li>
+        <li>✅ Mobile App Development: Flutter, Flutter Flow, React Native.</li>
+        <li>✅ Digital Marketing: SEO, Social Media Marketing (Facebook, Instagram, Google Ads).</li>
+
+        <!-- What I'm Doing -->
+        <div class="services">
+          <h2 class="section-title">What I'm Doing</h2>
+          <div class="services-grid">
+            <div class="service-box">
+              <i class="fa-solid fa-pencil-ruler"></i>
+              <h3>Software Development</h3>
+              <p>The most modern and high-quality design made at a professional level.</p>
+            </div>
+            <div class="service-box">
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+              <p>High-quality development of sites at the professional level.</p>
+            </div>
+
+            <div class="service-box">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <h3>Mobile App Development</h3>
+              <p>Professional development of applications for iOS and Android.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume Section -->
+      <section id="resume">
+        <h1>Resume</h1>
+        <h2>Education</h2>
+        <div class="edu-item">
+          <h3>Gift University</h3>
+          <span>2021 — 2025</span>
+          <p>Bachelor’s in Software Engineering. Skills in Web development, Mobile App Development, Digital Marketing.</p>
+        </div>
+        <div class="edu-item">
+          <h3>Apex Group Of College</h3>
+          <span>2019 — 2021</span>
+          <p>Completed F.Sc (Pre-Medical) with distinction in core science subjects (Biology, Chemistry, Physics).</p>
+        </div>
+        <div class="edu-item">
+          <h3>Grammar Public School</h3>
+          <span>2011 — 2019</span>
+          <p>Successfully completed secondary education with a focus on Science subjects (Biology, Chemistry, Physics, Mathematics).</p>
+        </div>
+
+        <h2>My Skills</h2>
+        <div class="edu-item">
+          <p>Web development — 90%</p>
+          <div style="background:#333;border-radius:5px;height:8px;">
+            <div style="width:90%;background:#f0c040;height:8px;"></div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <p>Mobile App Development — 85%</p>
+          <div style="background:#333;border-radius:5px;height:8px;">
+            <div style="width:85%;background:#f0c040;height:8px;"></div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <p>Digital Marketing — 90%</p>
+          <div style="background:#333;border-radius:5px;height:8px;">
+            <div style="width:90%;background:#f0c040;height:8px;"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h1>Contact</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108049.979335163!2d74.06930923461915!3d32.18908783430337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391ed7a694ac5161%3A0xcc2405e501297029!2sGreen%20Valley%20Phase%201%20Gujranwala34!5e0!3m2!1sen!2s!4v1758378924367!5m2!1sen!2s" width="1200" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="contact-form">
+          <h2>Contact Form</h2>
+          <input type="text" placeholder="Full name">
+          <input type="email" placeholder="Email address">
+          <textarea placeholder="Your Message"></textarea>
+          <button><i class="fa fa-paper-plane"></i> Send Message</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    function showSection(id, event) {
+      document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+
+      document.querySelectorAll(".navbar a").forEach(link => link.classList.remove("active"));
+      event.target.classList.add("active");
+    }
+  </script>
+</body>
+</html>
